@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="ie ie6 lte9 lte8 lte7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7 lte9 lte8 lte7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 lte9 lte8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> 
+<![endif]-->
+<!--[if gt IE 9]>  <html lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if !IE]><!--> 
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=3.0; width=device-width" />
+	
+	
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://mobilesensingtechnology.com/xmlrpc.php" />
+	
+	<!-- IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="http://mobilesensingtechnology.com/wp-content/themes/gdmedical/inc/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	
+	
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.4 - http://yoast.com/wordpress/seo/ -->
+<title>The Firmware - Mobile Sensing Technology</title>
+<link rel="canonical" href="http://mobilesensingtechnology.com/run-it/the-firmware/" />
+<meta property='og:locale' content='en_US'/>
+<meta property='og:title' content='The Firmware - Mobile Sensing Technology'/>
+<meta property='og:url' content='http://mobilesensingtechnology.com/run-it/the-firmware/'/>
+<meta property='og:site_name' content='Mobile Sensing Technology'/>
+<meta property='og:type' content='article'/>
+<meta property='og:image' content='http://mobilesensingtechnology.com/wp-content/uploads/2013/06/atmega_pinout.jpg'/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Mobile Sensing Technology &raquo; Feed" href="http://mobilesensingtechnology.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mobile Sensing Technology &raquo; Comments Feed" href="http://mobilesensingtechnology.com/comments/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://mobilesensingtechnology.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/bootstrap/css/bootstrap.min.css?ver=2.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-responsive-style-css'  href='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/bootstrap/css/bootstrap-responsive.min.css?ver=2.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cyberchimps_responsive-css'  href='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/bootstrap/css/cyberchimps-responsive.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='core-style-css'  href='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/css/core.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='skin-style-css'  href='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/inc/css/skins/grey.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elements_style-css'  href='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/elements/lib/css/elements.css?ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/js/jquery.slimbox.js?ver=1'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/js/jquery.jcarousel.min.js?ver=1'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/js/custom.js?ver=1'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/js/jquery.mobile.custom.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/js/swipe-call.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/js/video.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/elements/lib/js/elements.js?ver=3.5.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://mobilesensingtechnology.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mobilesensingtechnology.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-41891333-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!-- Simple Social Buttons style sheet -->
+<style type="text/css">
+   div.simplesocialbuttons { height: 20px; margin: 10px auto 10px 0; text-align: center; clear: left; }
+   div.simplesocialbutton { float: left; text-align: center;}
+</style>
+<!-- End of Simple Social Buttons -->
+
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" id="custom-background-css">
+	body.custom-background {  }
+</style>
+  
+  <style type="text/css" media="all">
+	  body {
+    	      	font-size: 14px;     
+    	      	font-family: Tahoma, Geneva, sans-serif;     
+    	      	font-weight: normal;     
+    	  }
+        .container {
+        max-width: 1200px;
+      }
+    </style>
+
+</head>
+
+<body class="page page-id-78 page-child parent-pageid-65 page-template-default">
+
+<div class="container">
+	
+
+<div id="wrapper" class="container-fluid">	
+	
+		<header id="cc-header" class="row-fluid">
+		<div class="span7">
+				
+	<hgroup>
+		<h1 class="site-title">
+    	<a href="http://mobilesensingtechnology.com/" title="Mobile Sensing Technology" rel="home">Mobile Sensing Technology</a>
+    </h1>
+    	</hgroup>
+		</div>	
+	
+		<div id ="register" class="span5">
+			  
+  <div class="contact_details">
+		  </div>
+		</div>
+	</header>
+	
+	
+	<nav id="navigation" class="row-fluid" role="navigation">
+      <div class="main-navigation navbar">
+        <div class="navbar-inner">
+        	<div class="container">
+          	
+          	  					<div class="nav-collapse collapse">
+                      		<div class="menu-main-container"><ul id="menu-main" class="nav"><li id="menu-item-495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495"><a href="http://mobilesensingtechnology.com/">UPOD</a></li>
+<li id="menu-item-497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-497"><a href="http://mobilesensingtechnology.com/about-us/">ABOUT IT</a></li>
+<li id="menu-item-498" class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-498"data-dropdown="dropdown"><a href="http://mobilesensingtechnology.com/build-it/" class="dropdown-toggle">BUILD IT <b class="caret"></b> </a>
+<ul class="dropdown-menu">
+	<li id="menu-item-506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-506"><a href="http://mobilesensingtechnology.com/build-it/">Build It</a></li>
+	<li id="menu-item-494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494"><a href="http://mobilesensingtechnology.com/build-it/the-board/">The Board</a></li>
+	<li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"><a href="http://mobilesensingtechnology.com/build-it/the-parts/">The Parts</a></li>
+	<li id="menu-item-492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-492"><a href="http://mobilesensingtechnology.com/build-it/the-assembly-2/">The Assembly</a></li>
+</ul>
+</li>
+<li id="menu-item-499" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor dropdown menu-item-499"data-dropdown="dropdown"><a href="http://mobilesensingtechnology.com/run-it/" class="dropdown-toggle">RUN IT <b class="caret"></b> </a>
+<ul class="dropdown-menu">
+	<li id="menu-item-502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-502"><a href="http://mobilesensingtechnology.com/run-it/">Run It</a></li>
+	<li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489"><a href="http://mobilesensingtechnology.com/run-it/setup/">Setup</a></li>
+	<li id="menu-item-488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="http://mobilesensingtechnology.com/run-it/bootloading/">Bootloading</a></li>
+	<li id="menu-item-491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-491"><a href="http://mobilesensingtechnology.com/run-it/the-programmer/">The Programmer</a></li>
+	<li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-78 current_page_item menu-item-490 active"><a href="http://mobilesensingtechnology.com/run-it/the-firmware/">The Firmware</a></li>
+	<li id="menu-item-487" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487"><a href="http://mobilesensingtechnology.com/run-it/plug-and-play/">Plug and Play</a></li>
+</ul>
+</li>
+<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="http://mobilesensingtechnology.com/the-data/">Data</a></li>
+<li id="menu-item-481" class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-481"data-dropdown="dropdown"><a href="http://mobilesensingtechnology.com/add-ons/" class="dropdown-toggle">Add-ons <b class="caret"></b> </a>
+<ul class="dropdown-menu">
+	<li id="menu-item-504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-504"><a href="http://mobilesensingtechnology.com/add-ons/">Add-ons</a></li>
+	<li id="menu-item-636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-636"><a href="http://mobilesensingtechnology.com/add-ons/gprs-and-meteorological-shield/">GPRS and Meteorological shield</a></li>
+	<li id="menu-item-483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a href="http://mobilesensingtechnology.com/add-ons/wifly-breakout/">Wifly breakout</a></li>
+	<li id="menu-item-484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="http://mobilesensingtechnology.com/add-ons/adc-breakout/">ADC breakout</a></li>
+	<li id="menu-item-485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="http://mobilesensingtechnology.com/add-ons/quad-stat/">Quad-stat</a></li>
+	<li id="menu-item-482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="http://mobilesensingtechnology.com/add-ons/potentiostat-shield/">Potentiostat shield</a></li>
+</ul>
+</li>
+<li id="menu-item-599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-599"><a href="http://mobilesensingtechnology.com/contact-us/">Contact Us</a></li>
+</ul></div>			
+			      			</div><!-- collapse -->
+			<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+                 </div><!-- container -->
+        </div><!-- .navbar-inner .row-fluid -->
+      </div><!-- main-navigation navbar -->
+	</nav><!-- #navigation -->
+	
+	
+
+<div id="container" class="row-fluid">
+	
+		
+	<div id="content" class=" span12">
+		
+				
+		
+			
+<article id="post-78" class="post-78 page type-page status-publish hentry">
+	
+	<header class="entry-header">
+  
+  			
+				<h2 class="entry-title">
+					</h2>
+	
+	</header><!-- .entry-header -->
+  
+			<div class="entry-summary">
+						<p>The UPOD firmware is written in the Arduino style C programming language. The Arduino IDE is used to compile and upload the code. The firmware is available in the <a href="https://github.com/MobileSensingTechnology/Firmware/archive/master.zip">Firmware</a> folder of our github repository. The introductory video in the firmware folder will provide the basic information necessary to configure and upload the firmware code to the UPOD.<br />
+For those wishing to understand the code in-depth, read on&#8230;</p>
+<hr />
+<h3>UPOD firmware: in depth</h3>
+<p>Lines 40-52 give the configuration criteria for the UPOD firmware. Boolean flags determine which features are to be included in the code. A &#8217;1&#8242; will include the flag, a &#8217;0&#8242; will omit it.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 220px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">#define GPS 0<br />
+#define SERIAL_STREAM 1<br />
+#define SD_WRITE 1<br />
+#define AUX_10bit 0<br />
+#define ON_BOARD 0 //MCP3424 on-board &#8220;address: H,F&#8221;<br />
+#define ALPHA_ARRAY 1 //auxillary 4-stat array, uses 2 MCP3424s<br />
+//SAMPLING CONFIGURATION<br />
+#define SAMPLE_RATE 1 //sample rate in Hz<br />
+#define FLUSH_RATE 1 //flush rate in Hz<br />
+//IMPORTANT: MODEL MUST HAVE A 2-digit ID number#define<br />
+model&#8221;UPOD88&#8243; //UPOD model indicator</div>
+<ul>
+<li> &#8221;GPS&#8221; will log GPS coordinates to the UPOD in <a href="http://www.gpsinformation.org/dale/nmea.htm#GLL" target="_blank">NMEA standard format</a>. Note: The UPOD firmware converts North/East=1 and South/West=-1</li>
+<li>&#8220;SERIAL_STREAM&#8221; will stream the data real-time to the UART Tx/Rx.  Note: The UART is at 5V, not 3.3V</li>
+<li>&#8220;SD_WRITE&#8221; will enable logging to the onboard microSD card.  <strong>If SD write is enables, no datalogging will take place if SD card is not present or broken</strong>.  (The UPOD instead displays a flashing LED error message)</li>
+<li>&#8220;AUX_10bit&#8221; enables datalogging from the auxillary 8 channel, 10bit analog-to-digital converter <a href="http://mobilesensingtechnology.com/add-ons/adc-breakout/" target="_blank">breakout board</a></li>
+<li>&#8220;ON_BOARD&#8221; refers to the 4 channel, 18bit differential analog-to-digital converter located on the rear-side of the board below the CO2 sensor</li>
+<li>&#8220;ALPHA_ARRAY&#8221; refers to to quad-stat potentiostat board.</li>
+</ul>
+<p>One might think it advantageous to enable all functions all the time.  Consider, however, that &#8220;GPS&#8221;, &#8220;ON_BOARD&#8221; and &#8220;ALPHA_ARRAY&#8221; all require additional sample time (eg. the 18bit ADC may only sample at 5SPS).  These latencies are in addition to the designated sample time.  For example, with the board fully-enabled and a defined sample time of 1 sec, the actual sample rate will be closer to 7sec.  This may be of concern for individuals wishing to sample at a higher rate.  Recall, however, that most of the sensors (metal-oxide type, electrolytic) have a physical hysteresis with characteristic time far greater than 7 sec.</p>
+<p>When &#8220;GPS&#8221;, &#8220;AUX_10bit&#8221;,&#8221;ON_BOARD&#8221; or &#8220;ALPHA_ARRAY&#8221; are <strong>disabled, </strong>-999 will be logged in their place.</p>
+<ul>
+<li><span style="line-height: 13px;">&#8220;SAMPLE_RATE&#8221; defines the desired sample-rate in Hz (more precisely, the pause between sampling events).  The UPOD green LED will flash for every sampling event.</span></li>
+<li>&#8220;FLUSH_RATE&#8221; defines the rate at which data is flushed from the RAM buffer to the SD card.  This is only important is SD_WRITE is enabled.  For most purposes, FLUSH_RATE should be set to &#8220;SAMPLE_RATE.  The UPOD red LED will flash for every flush to the SD card.</li>
+</ul>
+<p>&nbsp;</p>
+<hr />
+<p>Lines 55-63 establish our &#8216;mcp3424&#8242; objets. Each object is associated with an <a href="http://ww1.microchip.com/downloads/en/devicedoc/22088c.pdf" target="_blank">MCP3424 chip</a>. Each chip is identified by a unique address (see pg. 20 of the datasheet). The UPOD may accomodate up to 9 mcp3424 chips. The address is set physically using solderpad jumpers (see &#8216;<a href="http://mobilesensingtechnology.com/add-ons/quad-stat/ ‎" target="_blank">Quadstat</a>&#8216;)</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 140px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">//MCP3424 declarations<br />
+mcp3424 on_board;<br />
+float on_board_value[4];#if ALPHA_ARRAY<br />
+mcp3424 alpha_one;<br />
+mcp3424 alpha_two;<br />
+float alpha_value[8];<br />
+#endif</div>
+<p>Lines 210-217 set the mcp3424 object&#8217;s address within the <span style="color: #ff9900;">void setup() {&#8230;} </span> loop.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 120px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">#if ON_BOARD<br />
+on_board.GetAddress(&#8216;H&#8217;,'F&#8217;); //user defined address for on-board 18bit ADC<br />
+#endif#if ALPHA_ARRAY<br />
+alpha_one.GetAddress(&#8216;G&#8217;,'F&#8217;); //user defined address for the alphasense pstat array (4-stat)<br />
+alpha_two.GetAddress(&#8216;H&#8217;,'H&#8217;) ;<br />
+#endif</div>
+<p>And each channel of the mcp3424 can be accessed through it&#8217;s object as in lines 456-461 of the <span style="color: #ff9900;">void sample(&#8230;) {&#8230;} </span> function.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 120px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">#if ON_BOARD<br />
+on_board_value[0]=on_board.GetValue(1);<br />
+on_board_value[1]=on_board.GetValue(2);<br />
+on_board_value[2]=on_board.GetValue(3);<br />
+on_board_value[3]=on_board.GetValue(4);<br />
+#endif</div>
+<p>&nbsp;</p>
+<hr />
+<p>Lines 67-129 define most of the strings used in the UPOD firmware. Here we use the &#8216;progmem&#8217; library to store these lines in the program memory. Doing so prevents overflowing the RAM stack memory when running the code. here we have a list of strings of type <span style="color: #ff9900;">prog_char</span> and qualifier <span style="color: #ff9900;">PROGMEM</span>. A table of pointers <span style="color: #ff9900;">*string_table[]</span> points to each of these strings stored in program memory.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">//TABLE of STRINGS STORED IN PROGRAM MEMORY<br />
+//&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-<br />
+char progmem_buffer[50];<br />
+prog_char string_0[] PROGMEM = &#8220;sampling sensors&#8230;&#8221;;<br />
+prog_char string_1[] PROGMEM = &#8220;flushing SD card buffer&#8221;;<br />
+prog_char string_2[] PROGMEM = &#8220;*Card initialization failed*&#8221;;<br />
+prog_char string_3[] PROGMEM = &#8220;*RTC is not working*&#8221;;<br />
+prog_char string_4[] PROGMEM = &#8220;Current file: &#8220;;<br />
+prog_char string_5[] PROGMEM = &#8220;*File cannot be found or opened on card*&#8221;;<br />
+prog_char string_6[] PROGMEM = &#8220;,&#8221;;<br />
+prog_char string_7[] PROGMEM = &#8220;/&#8221;;<br />
+prog_char string_8[] PROGMEM = &#8220;:&#8221;;<br />
+prog_char string_9[] PROGMEM = &#8220;\n&#8221;;<br />
+prog_char string_10[] PROGMEM = &#8220;&#8221;;<br />
+prog_char string_11[] PROGMEM = &#8220;&#8221;;<br />
+prog_char string_12[] PROGMEM = &#8220;Could not open calibration file. Rebooting&#8230;&#8221;;<br />
+prog_char string_13[] PROGMEM = &#8220;&#8221;;<br />
+prog_char string_14[] PROGMEM = &#8220;Model,YYYY/MM/DD,HH:MM:SS,UnixTime,&#8221;;<br />
+prog_char string_15[] PROGMEM = &#8220;Baseline,CO2,A0,Fig1,Fig2,e2v03,e2vNO2,e2v1,e2v2,&#8221;;<br />
+prog_char string_16[] PROGMEM = &#8220;e2v3,e2v4,Temp,Rh,BaroT,BaroP,Lat,N/S,Lon,&#8221;;<br />
+prog_char string_17[] PROGMEM = &#8220;E/W,C0,C1,C2,C3,C4,C5,C6,C7,Ba1,Ba2,Ba3,Ba4&#8243;;<br />
+prog_char string_18[] PROGMEM = &#8220;Bb1,Bb2,Bb3,Bb4,Bc1,Bc2,Bc3,Bc4&#8243;;<br />
+prog_char string_19[] PROGMEM = &#8220;Closing and Reopening file&#8221;;<br />
+prog_char string_20[] PROGMEM = &#8220;NaN&#8221;;<br />
+prog_char string_21[] PROGMEM = &#8220;Free RAM (bytes)= &#8220;;<br />
+prog_char string_22[] PROGMEM = &#8220;-999,-999,-999,-999&#8243;;<br />
+prog_char string_23[] PROGMEM = &#8220;&#8221;;<br />
+prog_char string_24[] PROGMEM = &#8220;&#8221;;PROGMEM const char *string_table[]=<br />
+{<br />
+string_0,<br />
+string_1,<br />
+string_2,<br />
+string_3,<br />
+string_4,<br />
+string_5,<br />
+string_6,<br />
+string_7,<br />
+string_8,<br />
+string_9,<br />
+string_10,<br />
+string_11,<br />
+string_12,<br />
+string_13,<br />
+string_14,<br />
+string_15,<br />
+string_16,<br />
+string_17,<br />
+string_18,<br />
+string_19,<br />
+string_20,<br />
+string_21,<br />
+string_22,<br />
+string_23,<br />
+string_24<br />
+};char tab[]=&#8221;,&#8221;;<br />
+char slash[]=&#8221;.&#8221;;<br />
+char colon[]=&#8221;:&#8221;;<br />
+char nan[]=&#8221;NaN&#8221;;</p>
+</div>
+<p>The string can be accessed using, for example, the commands in lines 283 to 284 which copy string 14 in program memory to a character buffer <span style="color: #ff9900;">char progmem_buffer[50]</span>in the stack and then print it to the SD card. The buffer now contains the contents of string 14.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 60px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">strcpy_P(progmem_buffer, (char*)pgm_read_word(&amp;(string_table[14]))); //print header section<br />
+logfile.print(progmem_buffer);</div>
+<p>&nbsp;</p>
+<hr />
+<p>Lines 166-172 define the pin number for some of our hardware peripherals.  These definitions are very important.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 150px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+#define CS_Uno 10 //chip select for SD card SPI protocol<br />
+#define CS_ADC_1 9 // 10bit for MOx array default pull-up resistor to 5v<br />
+#define CS_ADC_2 2 // 10bit breakout board; attaches to header under CO2 sensor<br />
+#define RHT03_PIN A3 //RHT internal</p>
+<p>#define red_led 8<br />
+#define green_led 7
+</p></div>
+<p>The following table lists the pin assignments on the UPOD.  Those with (selectable) are only associated with their hardware when the corresponding hardware flag is enabled.  eg. pin 2 is the chip-select pin for the AUX_10_bit adc.  Pin 2 is free to use for other I/O <strong>if</strong> AUX_10_bit is &#8216;off&#8217; i.e. set to <span style="color: #ff9900;">AUX_10_bit 0</span>.  It is important to disable the pin functions in the <span style="color: #ff9900;">setup() {}</span> funtion if you wish to modify the code and commandeer a pin for another use.<br />
+<a href="http://mobilesensingtechnology.com/wp-content/uploads/2013/06/atmega_pinout.jpg"><img src="http://mobilesensingtechnology.com/wp-content/uploads/2013/06/atmega_pinout.jpg" alt="atmega_pinout" align="center" width="80%" class="size-medium wp-image-221" /></a></p>
+<hr />
+Lines 131-153 initialize variables and objects used to capture the GPS coordinate data.  The GPS code is handled within the main body of the firmware rather than in an external library.  The GPS module streams coordinate data every second which is captures and parsed by the UPOD.  The atmega chip makes use of the &#8216;NewSoftSerial&#8217; library which emulates a UART connection on a digital pin.  Here, the virtual &#8216;Rx&#8217; line is set to digital pin 4, and the Tx line is set to a fantom pin 254 (b/c the GPS module only transmits data).  Notice that pin 4 is explicitly declared here rather than defined in lines 166-172 (above).</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+#if GPS<br />
+  NewSoftSerial gpsSerial(4,254);  //set gps-RX/atmega-TX to phony address<br />
+  #define _GPGGA_TERM &#8220;$GPGGA,&#8221; //term to compare the string beginning with<br />
+  #define _MAX_LENGTH 15 //max length of recursive string catching<br />
+  #define _GPS_WAIT_TIME 3000 //time in mS to wait for a gps reading before aborting read<br />
+  int length=0;<br />
+  int wait=1;<br />
+  int n=0;<br />
+  char gpsIN;<br />
+  char sentence_[_MAX_LENGTH];<br />
+  int desired_string=0; //integer to hold the string comparision<br />
+  int term_=0;<br />
+  char time[11];<br />
+  char lat[13];<br />
+  char hem1[2];<br />
+  char lon[13];<br />
+  char hem2[2];<br />
+  char one[]=&#8221;1&#8243;;<br />
+  char minusone[]=&#8221;-1&#8243;;</p>
+<p>  unsigned long gps_time;<br />
+  char* terms_[]={time, lat, hem1, lon, hem2};<br />
+#endif
+</p></div>
+<hr />
+The <span style="color: #ff9900;">setup() {}</span> function executes once when the chip first boots up.  The commands called within the function initiate various features of the code.<br />
+Lines 195-204 set the pin mode for the pin numbers defined in the previous section.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 210px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+   pinMode(CS_Uno, OUTPUT);<br />
+   pinMode(CS_ADC_1, OUTPUT);<br />
+   digitalWrite(CS_ADC_1,HIGH); //deselect ADC initially<br />
+   #if AUX_10bit<br />
+   pinMode(CS_ADC_2, OUTPUT);<br />
+   digitalWrite(CS_ADC_2,HIGH); //deselect ADC initially<br />
+   #endif</p>
+<p>   pinMode(red_led,OUTPUT);<br />
+   pinMode(green_led,OUTPUT);
+</p></div>
+<p>Lines 206-228 perform hardware and communication initializations.  The baud rate for the UART serial output is set to 9600.  The GPS module&#8217;s baud rate is set to 4800.  Initializations take place for the real time clock (I2C protocol) and BMP085 pressure/temp sensor.  The settings are established for the SPI protocol.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+Wire.begin();<br />
+   RTC.begin();<br />
+   Serial.begin(9600);</p>
+<p>   #if ON_BOARD<br />
+   on_board.GetAddress(&#8216;H&#8217;,'F&#8217;); //user defined address for on-board 18bit ADC<br />
+   #endif</p>
+<p>   #if ALPHA_ARRAY<br />
+   alpha_one.GetAddress(&#8216;G&#8217;,'F&#8217;); //user defined address for the alphasense pstat array (4-stat)<br />
+   alpha_two.GetAddress(&#8216;H&#8217;,'H&#8217;) ;<br />
+   #endif</p>
+<p>   #if GPS<br />
+   gpsSerial.begin(4800);<br />
+   #endif</p>
+<p>   SPI.begin();<br />
+   SPI.setDataMode(0);<br />
+   SPI.setBitOrder(MSBFIRST);<br />
+   SPI.setClockDivider(SPI_CLOCK_DIV16);</p>
+<p>   BMP085.Calibrate(); //get calibration constants from BMP085
+</p></div>
+<p>Lines 230 to 259 within the <span style="color: #ff9900;">setup() {}</span> function check for the proper operation/connection to the real time clock and to the SD card.  If the SD card is not present or broken, the red and green LED will flash in sync (note: this only applies if &#8216;SD_WRITE&#8217; is enabled).  If the real time clock is not operational, the red and green LED will flash in an alternating pattern.  The <span style="color: #ff9900;">soft_reset()</span> function is called every 10 seconds. <span style="color: #ff9900;">soft_reset()</span> is defined in lines 438-441.  It does nothing more than reboot the chip, restarting the <span style="color: #ff9900;">setup() {}</span> process until and SD card is present or the RTC chip is operational.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+#if SD_WRITE<br />
+     if (! SD.begin(CS_Uno))<br />
+      {</p>
+<p>        //while(1) //lock into loop with red/green sync flashing at 1Hz for 10 sec, then reboot system<br />
+        for(int i=1;i<=10;i++)<br />
+        {<br />
+         digitalWrite(green_led, HIGH);<br />
+         digitalWrite(red_led,HIGH);<br />
+         delay(500);<br />
+         digitalWrite(green_led,LOW);<br />
+         digitalWrite(red_led,LOW);<br />
+         delay(500);<br />
+        }<br />
+        soft_reset();<br />
+      }<br />
+  #endif</p>
+<p>   if (! RTC.isrunning())<br />
+   {<br />
+     while(1) //Flash red/green in alternate at 1Hz if RTC not working<br />
+     {<br />
+      digitalWrite(green_led,HIGH);<br />
+      digitalWrite(red_led,LOW);<br />
+      delay(500);<br />
+      digitalWrite(green_led,LOW);<br />
+      digitalWrite(red_led,HIGH);<br />
+      delay(500);<br />
+     }<br />
+    }
+</p></div>
+<p>If an SD card is present and the RTC is operational, lines 260-313 will execute.  Here, a filename is created using the current date (&#8216;MMDDYYYY&#8217;) and the UPOD model number (&#8216;XXX&#8217;).  The code checks to see if a file already exists with the filename (&#8216;XXXMMDDYYYY.csv&#8217;).  If a file exists (logging already took place that day), then the file is opened for appending.  The file is created if it does not already exist.  If the code cannot open the file (eg. card is full), then it enters the same blinking pattern as described above.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+    DateTime now=RTC.now();<br />
+    //fill string &#8216;current_file&#8217; with MMDDYYYY<br />
+    int month=now.month();<br />
+    int day=now.day();<br />
+    int year=now.year();</p>
+<p>  #if SD_WRITE<br />
+    current_file[first_date]=month/10+&#8217;0&#8242;;<br />
+    current_file[first_date+1]=month%10+&#8217;0&#8242;;<br />
+    current_file[first_date+2]=day/10+&#8217;0&#8242;;<br />
+    current_file[first_date+3]=day%10+&#8217;0&#8242;;<br />
+    current_file[first_date+4]=((year/10)%100)%10+&#8217;0&#8242;;<br />
+    current_file[first_date+5]=((year%1000)%100)%10+&#8217;0&#8242;;</p>
+<p>    //fill &#8216;current_file&#8217; with SS of UPOD<SS> model number<br />
+    current_file[0]=model[4]; //get the UPOD model number from defined string at header<br />
+    current_file[1]=model[5];<br />
+    current_file[2]=model[6];</p>
+<p>    if(! SD.exists(current_file))<br />
+    {<br />
+      logfile=SD.open(current_file, FILE_WRITE);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[14])));  //print header section<br />
+      logfile.print(progmem_buffer);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[15])));<br />
+      logfile.print(progmem_buffer);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[16])));<br />
+      logfile.print(progmem_buffer);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[17])));<br />
+      logfile.print(progmem_buffer);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[18])));<br />
+      logfile.println(progmem_buffer);<br />
+      logfile.flush();<br />
+    }<br />
+    else<br />
+    {<br />
+      logfile=SD.open(current_file, FILE_WRITE);<br />
+    }</p>
+<p>    if(!logfile)<br />
+    {<br />
+      for(int i=1;i<=10;i++)<br />
+      {<br />
+       digitalWrite(green_led, HIGH);<br />
+       digitalWrite(red_led,HIGH);<br />
+       delay(500);<br />
+       digitalWrite(green_led,LOW);<br />
+       digitalWrite(red_led,LOW);<br />
+       delay(500);<br />
+      }<br />
+      soft_reset();<br />
+    }<br />
+  #endif
+</div>
+<hr />
+Lines 317-406 define the main <span style="color: #ff9900;">loop() {}</span> of the program.  The loop begins by flashing the green LED, signaling a data measurement event.  The GPS  portion waits until a line of data is received from the GPS module, and then parses it to extract the latitude and longitude coordinates.  Once the GPS has captured the coordinates, the loop executes the <span style="color: #ff9900;">void sample(int,int*)</span> function.  This is followed by a delay time between sampling events.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+  void loop()<br />
+  {</p>
+<p>    digitalWrite(green_led,HIGH);  //flash green light when sampling<br />
+    delay(50);<br />
+    digitalWrite(green_led,LOW);</p>
+<p>    #if GPS<br />
+        gps_time=millis();<br />
+        wait=1;<br />
+        length=0;<br />
+        n=0;<br />
+        desired_string=0;</p>
+<p>        beginning:<br />
+        while(wait &#038;&#038; ( (millis()-gps_time)<_GPS_WAIT_TIME) &#038;&#038; ( (millis()-_GPS_WAIT_TIME)>0) ) //this enters the GPS reading state until all info is returned<br />
+        {<br />
+          readin:<br />
+          if(gpsSerial.available())<br />
+          {<br />
+            gpsIN=gpsSerial.read();</p>
+<p>            if (gpsIN == &#8216;$&#8217;) //if we&#8217;re at the beginning ofa sentence<br />
+            {<br />
+              n=1;  //set string indexer to &#8217;1&#8242;<br />
+              term_=0; //re-index to first term<br />
+              desired_string=0; //set string comparing term to &#8217;0&#8242;<br />
+              goto readin;<br />
+             } </p>
+<p>            if(n>0 &#038;&#038; n<7) //if we are still reading in the first term of the new string<br />
+            {<br />
+              if(gpsIN == _GPGGA_TERM[n])<br />
+              {<br />
+               desired_string=desired_string++; //should == 6 if correct string<br />
+              }<br />
+              n++;<br />
+             } //end loop through string comparison</p>
+<p>            if(desired_string >=6)<br />
+            {<br />
+              if(desired_string==6)<br />
+              {<br />
+                desired_string++;<br />
+              goto readin;  //don&#8217;t look at the first &#8216;,&#8217; since we don&#8217;t want the first term<br />
+              }</p>
+<p>              //we sill continue to enter this statement until &#8216;desired_string&#8217; is reset<br />
+              switch (gpsIN)<br />
+              {<br />
+               case &#8216;,&#8217;: //when we have reached the end of a term (not including first term)<br />
+               terms_[term_][length]=&#8217;\0&#8242;; //terminate output string<br />
+              // Serial.println(terms_[term]);<br />
+               term_++; //increment to the next term<br />
+               length=0;<br />
+               if(term_>=5)<br />
+                { wait=0;<br />
+                  desired_string=0;<br />
+                  goto beginning;<br />
+                }<br />
+               goto readin;<br />
+               break;</p>
+<p>               case &#8216;*&#8217;: //we have reached the end of the line and want to exit everything<br />
+               wait=0;<br />
+               goto beginning;<br />
+               break;<br />
+               }</p>
+<p>               terms_[term_][length]=gpsIN; //add input character to proper term<br />
+               length++;<br />
+              }<br />
+             }<br />
+        }</p>
+<p>     if(wait == 1) //if we exited because the time limit has elapsed, NOT because we have observed a good reading<br />
+      {<br />
+        char none[]=&#8221;0 \0&#8243;;<br />
+        terms_[0]=none;<br />
+        terms_[1]=none;<br />
+        terms_[2]=none;<br />
+        terms_[3]=none;<br />
+        terms_[4]=none;<br />
+      }<br />
+    #endif</p>
+<p>    sample(cycles_b4_flush, &#038;flush_crit);</p>
+<p>    delay(1000./SAMPLE_RATE-100.); //delay between normal samples minus the flash time of 50ms and a little extra for sensor polling<br />
+  }
+</p></div>
+<hr />
+Lines 411-436 define the <span style="color: #ff9900;">void ADCcall(int[],int)</span> function.  This function is used to acquire the 8 channels of the 10bit analog-to-digital values from the <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" target="_blank">MCP3008</a>.  It takes as an argument an array of 8 integers and the &#8216;chip select&#8217; or &#8216;slave select&#8217; pin (see <a href="http://arduino.cc/en/Reference/SPI" target="_blank">SPI</a>).  The MCP3008 is used for signals from the 8 metal-oxide type sensors (&#8216;e2v&#8217; and &#8216;Figaro&#8217;) as well as the <a href="http://mobilesensingtechnology.com/add-ons/adc-breakout/" target="_blank">ADC breakout board</a>.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+void ADCcall(int Figaro[], int pin)<br />
+  {<br />
+    const byte ADC_ch[8]={B1000,B1001,B1010,B1011,B1100,B1101,B1110,B1111};  //channel designations<br />
+    const byte start_byte= B00000001; //initial byte to send to start ADC transmission</p>
+<p>    digitalWrite(pin,LOW);<br />
+    delay(10);<br />
+    digitalWrite(pin,HIGH); //cycle ADC to reset if it was in LOW initially<br />
+    delay(10);</p>
+<p>    for (int i=0; i<8; i++)<br />
+      {<br />
+      digitalWrite(pin,LOW); //activate ADC chip</p>
+<p>      byte channel_byte=ADC_ch[i]<<4; //determine channel to read from</p>
+<p>      SPI.transfer(start_byte);<br />
+      byte byte1=SPI.transfer(channel_byte);<br />
+      byte byte2=SPI.transfer(B00000000);</p>
+<p>      Figaro[i]= int(((byte1 &#038; B00000011)<<8 | byte2) ); //mask first 6 bits of 'byte1' and concatenate w/ 'byte2'</p>
+<p>      digitalWrite(pin,HIGH); //deselect ADC<br />
+      }<br />
+  }
+</p></div>
+<p>Lines 444-752 make up the <span style="color: #ff9900;">void sample(int, int*)</span> function.  This function defines all actions taking place during a sampling event.  Lines 446-474 request the current data from various sensors.  This includes the current time from the RTC, the barometic pressure and temperature from the BMP085 sensor, the analog voltages from the metal-oxide type sensor array (8 sensors), the 8 analog voltages from the <a href="http://mobilesensingtechnology.com/add-ons/adc-breakout/">ADC breakout board</a>, the analog voltages from the 4 channels of the onboard 18bit ADC, the voltages from the <a href="http://mobilesensingtechnology.com/add-ons/quad-stat/">Quad-stat</a>, and the relative humidity and temperature from the RHT03 sensor.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+DateTime now=RTC.now();<br />
+    BMP085.refresh(); </p>
+<p>  //Sample sensors and write to buffer<br />
+    ADCcall(ADC1, CS_ADC_1);</p>
+<p>    #if AUX_10bit<br />
+    ADCcall(ADC2,CS_ADC_2);<br />
+    #endif </p>
+<p>    #if ON_BOARD<br />
+    on_board_value[0]=on_board.GetValue(1);<br />
+    on_board_value[1]=on_board.GetValue(2);<br />
+    on_board_value[2]=on_board.GetValue(3);<br />
+    on_board_value[3]=on_board.GetValue(4);<br />
+    #endif</p>
+<p>    #if ALPHA_ARRAY<br />
+    alpha_value[0]=alpha_one.GetValue(1);<br />
+    alpha_value[1]=alpha_one.GetValue(2);<br />
+    alpha_value[2]=alpha_one.GetValue(3);<br />
+    alpha_value[3]=alpha_one.GetValue(4);<br />
+    alpha_value[4]=alpha_two.GetValue(1);<br />
+    alpha_value[5]=alpha_two.GetValue(2);<br />
+    alpha_value[6]=alpha_two.GetValue(3);<br />
+    alpha_value[7]=alpha_two.GetValue(4);<br />
+   #endif</p>
+<p>    myRHT03.readData(); //read the RHT03 T and Rh
+</p></div>
+<p>Lines 476-597 write the data to the SD card buffer.  The GPS &#8216;North&#8217;/'South&#8217; and &#8216;East&#8217;/'West&#8217; tags are converted to &#8217;1&#8242;/&#8217;-1&#8242; respectively.  Values written to the buffer are comma delimited and consistent with the header titles.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+    #if SD_WRITE<br />
+      //add values to comma delimited data line<br />
+      logfile.print(model); //model name<br />
+      logfile.print(tab);<br />
+      logfile.print((int)now.year()); //current year<br />
+      logfile.print(slash);<br />
+      logfile.print((int)now.month()); //current month<br />
+      logfile.print(slash);<br />
+      logfile.print((int)now.day()); //current day<br />
+      logfile.print(tab);<br />
+      logfile.print((int)now.hour()); //curent hr<br />
+      logfile.print(colon);<br />
+      logfile.print((int)now.minute()); //current minute<br />
+      logfile.print(colon);<br />
+      logfile.print((int)now.second()); //current second<br />
+      logfile.print(tab);<br />
+      logfile.print(now.unixtime()); //current unixtime; time since midnight 1/1/1970 (seconds)<br />
+      logfile.print(tab);<br />
+      logfile.print(analogRead(A1)); //Baseline VOC sensor<br />
+      logfile.print(tab);<br />
+      logfile.print(analogRead(A2)); //CO2 sensor<br />
+      logfile.print(tab);<br />
+      logfile.print(analogRead(A0)); //analog channel 0<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC1[0]); //Figaro 1<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC1[1]); //Figaro 2<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC1[2]); //e2v_O3<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC1[3]);  //e2v_NO2<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC1[4]);  //e2v_1<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC1[5]); //e2v_2<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC1[6]); //e2v_3<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC1[7]); //e2v_4<br />
+      logfile.print(tab);<br />
+      dtostrf(myRHT03.getTemperatureC(),6,2,RHT03_buffer); //Temp internal<br />
+      logfile.print(RHT03_buffer);<br />
+      logfile.print(tab);<br />
+      dtostrf(myRHT03.getHumidity(),6,2,RHT03_buffer); //Rh internal<br />
+      logfile.print(RHT03_buffer);<br />
+      logfile.print(tab);<br />
+      logfile.print(BMP085.temperature);<br />
+      logfile.print(tab);<br />
+      logfile.print(BMP085.pressure);<br />
+    #if GPS<br />
+      logfile.print(tab);<br />
+      logfile.print(terms_[1]);  //lat<br />
+      logfile.print(tab);<br />
+      if (strcmp(hem1,&#8221;N&#8221;)==0)<br />
+        {<br />
+         logfile.print(one);<br />
+        }<br />
+      if (strcmp(hem1,&#8221;S&#8221;)==0)<br />
+        {<br />
+         logfile.print(minusone);<br />
+        }<br />
+      logfile.print(tab);<br />
+      logfile.print(terms_[3]);  //lon<br />
+      logfile.print(tab);<br />
+      if (strcmp(hem2,&#8221;E&#8221;)==0)<br />
+        {<br />
+         logfile.print(one);<br />
+        }<br />
+      if (strcmp(hem2,&#8221;W&#8221;)==0)<br />
+        {<br />
+         logfile.print(minusone);<br />
+        }<br />
+    #else<br />
+      logfile.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      logfile.print(progmem_buffer);<br />
+    #endif</p>
+<p>    #if AUX_10bit<br />
+   for(int p=0;p<8;p++)<br />
+   {<br />
+      logfile.print(tab);<br />
+      logfile.print(ADC2[p]); //analog0<br />
+   }</p>
+<p>    #else<br />
+      logfile.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      logfile.print(progmem_buffer);<br />
+      logfile.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      logfile.print(progmem_buffer);<br />
+    #endif </p>
+<p>    #if ON_BOARD<br />
+   for(int p=0;p<4;p++)<br />
+   {<br />
+      logfile.print(tab);<br />
+      logfile.print(on_board_value[p]);<br />
+   }<br />
+    #else<br />
+      logfile.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      logfile.print(progmem_buffer);<br />
+    #endif</p>
+<p>     #if ALPHA_ARRAY<br />
+    for(int p=0;p<8;p++)<br />
+    {<br />
+      logfile.print(tab);<br />
+      logfile.print(alpha_value[p]);<br />
+    }<br />
+    #else<br />
+      logfile.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      logfile.print(progmem_buffer);<br />
+      logfile.print(tab);<br />
+      logfile.print(progmem_buffer);<br />
+  #endif</p>
+<p>      logfile.println();<br />
+    #endif //SD_WRITE
+</p></div>
+<p>Lines 599-717 perform the same actions as above, accept streaming data to the UART instead of writting it to the SD card bufer.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+    #if SERIAL_STREAM<br />
+      Serial.print(model); //model name<br />
+      Serial.print(tab);<br />
+      Serial.print((int)now.year()); //current year<br />
+      Serial.print(slash);<br />
+      Serial.print((int)now.month()); //current month<br />
+      Serial.print(slash);<br />
+      Serial.print((int)now.day()); //current day<br />
+      Serial.print(tab);<br />
+      Serial.print((int)now.hour()); //curent hr<br />
+      Serial.print(colon);<br />
+      Serial.print((int)now.minute()); //current minute<br />
+      Serial.print(colon);<br />
+      Serial.print((int)now.second()); //current second<br />
+      Serial.print(tab);<br />
+      Serial.print(now.unixtime()); //current unixtime; time since midnight 1/1/1970 (seconds)<br />
+      Serial.print(tab);<br />
+      Serial.print(analogRead(A1)); //Baseline VOC sensor<br />
+      Serial.print(tab);<br />
+      Serial.print(analogRead(A2)); //CO2 sensor<br />
+      Serial.print(tab);<br />
+      Serial.print(analogRead(A0)); //analog channel 0<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC1[0]); //Figaro 1<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC1[1]); //Figaro 2<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC1[2]); //e2v_O3<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC1[3]);  //e2v_NO2<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC1[4]);  //e2v_1<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC1[5]); //e2v_2<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC1[6]); //e2v_3<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC1[7]); //e2v_4<br />
+      Serial.print(tab);<br />
+      dtostrf(myRHT03.getTemperatureC(),6,2,RHT03_buffer); //Temp internal<br />
+      Serial.print(RHT03_buffer);<br />
+      Serial.print(tab);<br />
+      dtostrf(myRHT03.getHumidity(),6,2,RHT03_buffer); //Rh internal<br />
+      Serial.print(RHT03_buffer);<br />
+      Serial.print(tab);<br />
+      Serial.print(BMP085.temperature);<br />
+      Serial.print(tab);<br />
+      Serial.print(BMP085.pressure);<br />
+    #if GPS<br />
+        Serial.print(tab);<br />
+        Serial.print(lat);  //lat<br />
+        Serial.print(tab);<br />
+        if (strcmp(hem1,&#8221;N&#8221;)==0)<br />
+        {<br />
+         Serial.print(one);<br />
+        }<br />
+        if (strcmp(hem1,&#8221;S&#8221;)==0)<br />
+        {<br />
+         Serial.print(minusone);<br />
+        }<br />
+        Serial.print(tab);<br />
+        Serial.print(lon);  //lon<br />
+        Serial.print(tab);<br />
+      if (strcmp(hem2,&#8221;E&#8221;)==0)<br />
+        {<br />
+         Serial.print(one);<br />
+        }<br />
+      if (strcmp(hem2,&#8221;W&#8221;)==0)<br />
+        {<br />
+         Serial.print(minusone);<br />
+        }<br />
+    #else<br />
+      Serial.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      Serial.print(progmem_buffer);<br />
+    #endif </p>
+<p>    #if AUX_10bit<br />
+    for(int p=0;p<8;p++)<br />
+   {<br />
+      Serial.print(tab);<br />
+      Serial.print(ADC2[p]);<br />
+   }<br />
+    #else<br />
+      Serial.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      Serial.print(progmem_buffer);<br />
+      Serial.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      Serial.print(progmem_buffer);<br />
+    #endif   </p>
+<p>    #if ON_BOARD<br />
+   for(int p=0;p<4;p++)<br />
+   {<br />
+      Serial.print(tab);<br />
+      Serial.print(on_board_value[p]);<br />
+   }<br />
+  #else<br />
+      Serial.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      Serial.print(progmem_buffer);<br />
+   #endif</p>
+<p>     #if ALPHA_ARRAY<br />
+    for(int p=0;p<8;p++)<br />
+    {<br />
+      Serial.print(tab);<br />
+      Serial.print(alpha_value[p]);<br />
+    }<br />
+  #else<br />
+      Serial.print(tab);<br />
+      strcpy_P(progmem_buffer, (char*)pgm_read_word(&#038;(string_table[22])));  // -1,-1,-1,-1<br />
+      Serial.print(progmem_buffer);<br />
+      Serial.print(tab);<br />
+      Serial.print(progmem_buffer);<br />
+  #endif<br />
+    Serial.println();<br />
+    #endif //SERIAL_STREAM
+</div>
+<p>Lastly, lines 720-751 flush the SD card buffer, writing the data to the card itself.  This occurs at the flush rate frequency specified in the header definitions of the firmware (see the first section of this page).  The red LED will flash when this process takes place.  When the data is flushed, the code will also close and reopen the logfile.  The current date is used in reopening the file, thus is the day has changed between consecutive data flushes, the code will create a new logfile.</p>
+<div style="background-color: #ebf5ff; border: 1px solid #000000; width: 90%; height: 180px; overflow: -moz-scrollbars-vertical-visible; overflow-y: auto;">
+  #if SD_WRITE<br />
+    *flush_crit=*flush_crit+1; //index counter up for flus criteria<br />
+    if(*flush_crit>=cycles )<br />
+    {<br />
+      digitalWrite(red_led,HIGH);</p>
+<p>      logfile.flush();</p>
+<p>      *flush_crit=0;<br />
+      delay(100);<br />
+      digitalWrite(red_led,LOW);</p>
+<p>      logfile.close(); //close and reopen logfile to check SD card presence<br />
+      current_file[(first_date+2)]=now.day()/10+&#8217;0&#8242;;<br />
+      current_file[(first_date+3)]=now.day()%10+&#8217;0&#8242;; //edit current file</p>
+<p>      if(! SD.exists(current_file))<br />
+      {<br />
+        soft_reset();<br />
+      }</p>
+<p>      else<br />
+      {<br />
+        logfile=SD.open(current_file, FILE_WRITE);<br />
+      }</p>
+<p>      if(!logfile)<br />
+      {<br />
+       soft_reset();<br />
+      }<br />
+    }<br />
+ #endif
+</p></div>
+		</div><!-- .entry-summary -->
+	
+	
+	<footer class="entry-meta">
+		    
+				
+				
+	</footer><!-- #entry-meta -->
+	
+</article><!-- #post-78 -->
+			
+			
+				
+	</div><!-- #content -->
+	
+			
+</div><!-- #container .row-fluid-->
+
+
+</div><!-- #wrapper .container-fluid -->
+	
+
+
+<footer class="site-footer row-fluid">
+	
+	<div id="copyright">© Mobile Sensing Technology</div>	
+</footer><!-- .site-footer .row-fluid -->
+
+
+</div><!-- #wrapper .container-fluid -->
+
+
+</div><!-- container -->
+
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.25.0-2013.01.18'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/mobilesensingtechnology.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.3'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201708'></script>
+<script type='text/javascript' src='http://mobilesensingtechnology.com/wp-content/themes/gdmedical/cyberchimps/lib/bootstrap/js/bootstrap.min.js?ver=2.0.4'></script>
+
+</body>
+</html>
